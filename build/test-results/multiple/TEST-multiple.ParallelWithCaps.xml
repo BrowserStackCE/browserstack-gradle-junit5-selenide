@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="multiple.ParallelWithCaps" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-18T10:58:02" hostname="Nithyas-MacBook-Pro.local" time="14.381">
+  <properties/>
+  <testcase name="test2()" classname="multiple.ParallelWithCaps" time="12.268"/>
+  <testcase name="test1()" classname="multiple.ParallelWithCaps" time="14.381"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 18, 2019 4:28:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Dec 18, 2019 4:28:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

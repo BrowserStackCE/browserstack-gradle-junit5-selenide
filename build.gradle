@@ -1,0 +1,78 @@
+plugins {
+    id 'java'
+}
+
+group 'Junit5Gradle'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+    testImplementation  'org.junit.jupiter:junit-jupiter-params:5.1.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.13.0'
+    implementation 'com.browserstack:browserstack-local-java:0.3.0'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    testCompile 'com.codeborne:selenide:5.5.1'
+    testCompile 'junit:junit:4.12'
+}
+group = 'com.browserstack'
+version = '1.0-SNAPSHOT'
+description = 'junit-browserstack'
+sourceCompatibility = '1.8'
+
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
+task single(type: Test) {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+    }
+    include '**/Single.class'
+    systemProperty "config", "single"
+}
+
+task local(type: Test) {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+    }
+    include '**/Local.class'
+    systemProperty "config", "local"
+}
+
+task parallel(type: Test) {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+    }
+    include '**/Parallel.class'
+    systemProperties = [
+            'config':'parallel',
+            'junit.jupiter.execution.parallel.enabled': 'true',
+    ]
+
+}
+
+task multiple(type: Test) {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+    }
+    include '**/multiple/ParallelWithCaps.class'
+    systemProperties = [
+            'junit.jupiter.execution.parallel.enabled': 'true',
+    ]
+
+}
