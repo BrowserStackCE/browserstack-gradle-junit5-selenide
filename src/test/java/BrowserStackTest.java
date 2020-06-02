@@ -23,7 +23,7 @@ import static org.junit.Assert.assertNotNull;
 
 public class BrowserStackTest {
     public WebDriver driver;
-    private Local l;
+    private Local bsLocal;
 
     private static JSONObject config;
     public Map<String, String> envCapabilities;
@@ -72,10 +72,12 @@ public class BrowserStackTest {
         }
 
         if (capabilities.getCapability("browserstack.local") != null && capabilities.getCapability("browserstack.local") == "true") {
-            l = new Local();
-            Map<String, String> options = new HashMap<>();
-            options.put("key", accessKey);
-            l.start(options);
+            bsLocal = new Local();
+            HashMap<String, String> bsLocalArgs = new HashMap<String, String>();
+            bsLocalArgs.put("key", accessKey);
+            //bsLocalArgs.put("force", "true");
+            bsLocal.start(bsLocalArgs);
+            System.out.println(bsLocal.isRunning());
         }
         driver = new RemoteWebDriver(new URL("http://" + username + ":" + accessKey + "@" + config.get("server") + "/wd/hub"), capabilities);
         WebDriverRunner.setWebDriver(driver);
@@ -84,6 +86,8 @@ public class BrowserStackTest {
     @AfterEach
     public void tearDown() throws Exception {
         WebDriverRunner.closeWebDriver();
-        if(l != null) l.stop();
+        if(bsLocal != null) {
+            bsLocal.stop();
+        }
     }
 }
