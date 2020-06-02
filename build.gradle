@@ -18,7 +18,7 @@ dependencies {
     testImplementation  'org.junit.jupiter:junit-jupiter-params:5.1.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
     implementation 'org.seleniumhq.selenium:selenium-java:3.13.0'
-    implementation 'com.browserstack:browserstack-local-java:0.3.0'
+    implementation 'com.browserstack:browserstack-local-java:1.0.3'
     implementation 'com.googlecode.json-simple:json-simple:1.1.1'
     testCompile 'com.codeborne:selenide:5.5.1'
     testCompile 'junit:junit:4.12'
