@@ -1,15 +1,9 @@
-import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
-import org.junit.jupiter.api.Test;
+
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-
-import java.net.URL;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -21,13 +15,31 @@ public class Parallel extends BrowserStackTest{
     @RepeatedTest(i)
     public void repeatedTestMethod1(RepetitionInfo repetitionInfo){
         open("http://www.google.com");
+        try{
+            driver.findElement(By.id("KByQx")).click();
+            driver.findElement(By.id("L2AGLb")).click();
+        }catch (Exception e){
+            System.out.println("Modal does not exist");
+        }
         $(By.name("q")).setValue("BrowserStack").pressEnter();
-        sleep(2000);
+        if(driver.getTitle().equals("BrowserStack - Google Search"))
+            markTestStatus("passed","Expected Title");
+        else
+            markTestStatus("failed","Unexpected Title");
     }
     @RepeatedTest(i)
     public void repeatedTestMethod2(RepetitionInfo repetitionInfo){
         open("http://www.google.com");
-        $(By.name("q")).setValue("BrowserStack").pressEnter();
-        sleep(2000);
+        try{
+            driver.findElement(By.id("KByQx")).click();
+            driver.findElement(By.id("L2AGLb")).click();
+        }catch (Exception e){
+            System.out.println("Modal does not exist");
+        }
+        $(By.name("q")).setValue("Avacado").pressEnter();
+        if(driver.getTitle().equals("Avacado - Google Search"))
+            markTestStatus("passed","Expected Title");
+        else
+            markTestStatus("failed","Unexpected Title");
     }
 }

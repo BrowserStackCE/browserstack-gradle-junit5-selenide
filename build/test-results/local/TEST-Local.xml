@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Local" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-21T10:52:04" hostname="Nithyas-MacBook-Pro.local" time="16.008">
+<testsuite name="Local" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-09T14:31:02" hostname="Nithyas-MacBook-Pro.local" time="23.632">
   <properties/>
-  <testcase name="test()[1]" classname="Local" time="16.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Feb 21, 2020 4:22:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
+  <testcase name="test()[1]" classname="Local" time="23.632"/>
+  <system-out><![CDATA[true
+]]></system-out>
+  <system-err><![CDATA[Dec 09, 2021 8:01:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -28,35 +29,60 @@ public class ParallelWithCaps{
 
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("browser", "Chrome");
-        caps.setCapability("browser_version", "75.0");
+        caps.setCapability("browser_version", "latest");
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("name", "parallel_test");
         caps.setCapability("build", "browserstack-gradle-junit5-selenide");
 
         WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+
         WebDriverRunner.setWebDriver(driver);
         open("http://www.google.com");
+        try{
+            driver.findElement(By.id("KByQx")).click();
+            driver.findElement(By.id("L2AGLb")).click();
+        }catch (Exception e){
+            System.out.println("Modal does not exist");
+        }
+
         $(By.name("q")).setValue("BrowserStack").pressEnter();
-        sleep(2000);
+        if(driver.getTitle().equals("BrowserStack - Google Search"))
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Expected Title\"}}");
+        else
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"failed\", \"reason\": \"Unexpected Title\"}}");
         WebDriverRunner.closeWebDriver();
     }
     @Test
     public void test2() throws Exception {
 
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("browser", "IE");
-        caps.setCapability("browser_version", "11.0");
-        caps.setCapability("os", "Windows");
-        caps.setCapability("os_version", "8.1");
+        caps.setCapability("browser", "Firefox");
+        caps.setCapability("browser_version", "latest");
+        caps.setCapability("os", "OS X");
+        caps.setCapability("os_version", "Big Sur");
         caps.setCapability("name", "parallel_test");
         caps.setCapability("build", "browserstack-gradle-junit5-selenide");
 
         WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+
         WebDriverRunner.setWebDriver(driver);
         open("http://www.google.com");
+        try{
+            driver.findElement(By.id("KByQx")).click();
+            driver.findElement(By.id("L2AGLb")).click();
+        }catch (Exception e){
+            System.out.println("Modal does not exist");
+        }
         $(By.name("q")).setValue("BrowserStack").pressEnter();
-        sleep(2000);
+        if(driver.getTitle().equals("BrowserStack - Google Search"))
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Expected Title\"}}");
+        else
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"failed\", \"reason\": \"Unexpected Title\"}}");
+
         WebDriverRunner.closeWebDriver();
     }
+
 }

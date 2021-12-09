@@ -10,6 +10,6 @@
   },
 
   "environments": [{
-    "browser": "chrome"
+    "device": "Samsung Galaxy A51"
   }]
 }

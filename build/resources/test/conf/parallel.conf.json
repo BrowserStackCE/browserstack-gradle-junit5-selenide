@@ -19,11 +19,11 @@
     {
       "browser": "safari",
       "os": "OS X",
-      "os_version": "Mojave",
-      "browser_version": "12.0"
+      "os_version": "Big Sur",
+      "browser_version": "latest"
     },
     {
-      "browser": "Internet Explorer"
+      "browser": "edge"
     }
   ]
 }

@@ -11,14 +11,12 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepetitionInfo;
 import org.junit.jupiter.api.TestInfo;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
-import static org.junit.Assert.assertNotNull;
+import java.util.concurrent.TimeUnit;
 
 
 public class BrowserStackTest {
@@ -81,6 +79,7 @@ public class BrowserStackTest {
         }
         driver = new RemoteWebDriver(new URL("http://" + username + ":" + accessKey + "@" + config.get("server") + "/wd/hub"), capabilities);
         WebDriverRunner.setWebDriver(driver);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @AfterEach
@@ -89,5 +88,10 @@ public class BrowserStackTest {
         if(bsLocal != null) {
             bsLocal.stop();
         }
+    }
+
+    public void markTestStatus(String status, String reason){
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \""+status+"\", \"reason\": \""+reason+"\"}}");
     }
 }
