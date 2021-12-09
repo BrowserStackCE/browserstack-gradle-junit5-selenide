@@ -5,88 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd41272-013e-432a-837b-22299c873ed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileChanges/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileChanges/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/externalDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/BrowserStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/BrowserStackTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Local.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Local.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Parallel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Single.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Single.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/multiple/ParallelWithCaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/multiple/ParallelWithCaps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/junit5gradle-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/junit5gradle-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/local/classes/Local.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/local/classes/Local.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/local/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/local/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/local/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/local/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/multiple/classes/multiple.ParallelWithCaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/multiple/classes/multiple.ParallelWithCaps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/multiple/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/multiple/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/multiple/packages/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/multiple/packages/multiple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/parallel/classes/Parallel.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/parallel/classes/Parallel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/parallel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/parallel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/parallel/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/parallel/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/single/classes/Single.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/single/classes/Single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/single/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/single/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/single/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/single/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/conf/parallel.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/conf/parallel.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/conf/single.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/conf/single.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/local/TEST-Local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/local/TEST-Local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/local/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/local/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/local/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/local/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/local/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/local/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/multiple/TEST-multiple.ParallelWithCaps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/multiple/TEST-multiple.ParallelWithCaps.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/multiple/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/multiple/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/multiple/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/multiple/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/multiple/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/multiple/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/parallel/TEST-Parallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/parallel/TEST-Parallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/parallel/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/parallel/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/parallel/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/parallel/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/parallel/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/parallel/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/single/TEST-Single.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/single/TEST-Single.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/single/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/single/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/single/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/single/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BrowserStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BrowserStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Local.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Single.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Single.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/multiple/ParallelWithCaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/multiple/ParallelWithCaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/conf/single.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/conf/single.conf.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
