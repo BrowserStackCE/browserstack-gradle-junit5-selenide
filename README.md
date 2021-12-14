@@ -1,8 +1,8 @@
-# browserstack-gradle-junit5-selenide
+![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780) BrowserStack
+
+# BrowserStack Examples Selenide Junit5 with Gradle
 Selenide JUnit5 Gradle Integration with BrowserStack.
 
-
-![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780) 
 
 ## Setup
 * Clone the repo
